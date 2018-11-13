@@ -1,4 +1,8 @@
-supervisor --harmony index   //supervisor的作用是会监听文件的变化，而我们修改文件之后不必去重启程序
+
+node server
+
+
+supervisor --harmony index   //supervisor鐨勪綔鐢ㄦ槸浼氱洃鍚枃浠剁殑鍙樺寲锛岃�屾垜浠慨鏀规枃浠朵箣鍚庝笉蹇呭幓閲嶅惎绋嬪簭
 
 
 cnpm i koa koa-bodyparser koa-mysql-session koa-router koa-session-minimal koa-static koa-views md5 moment mysql ejs markdown-it chai mocha koa-static-cache --save-dev
